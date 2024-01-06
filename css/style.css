@@ -60,7 +60,6 @@ body {
 }
 
 .page {
-	box-sizing: border-box;
 	min-width: 32rem;
 	max-width: 48rem;
 }
@@ -139,18 +138,19 @@ body {
 	margin-top: 37.6rem;
 	width: 100%;
 
-	background-image: url(../svg/title-wrp.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: var(--yellow);
+	clip-path: polygon(15% 0, 100% 0, 100% 75%, 84% 100%, 0 100%, 0 24%);
 }
 
 .header__title {
+	display: block;
+	width: 30rem;
+	margin: 0 auto;
 	padding: 0;
-	margin: 0;
 	font-family: 'Archangelsk', Arial, Helvetica, sans-serif;
 	font-size: 3rem;
-	font-weight: 400;
 	text-align: center;
+	font-weight: 400;
 	line-height: normal;
 }
 
