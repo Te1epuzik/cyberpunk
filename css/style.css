@@ -201,6 +201,14 @@ body {
 	width: 100%;
 }
 
+.scnshots__first, .scnshots__second {
+	clip-path: polygon(15% 0, 100% 0, 100% 75%, 84% 100%, 0 100%, 0 24%);
+}
+
+.scnshots__third {
+	clip-path: polygon(15% 0, 100% 0, 100% 88%, 84% 100%, 0 100%, 0 12%);
+}
+
 .scnshot {
 	width: 100%;
 	object-fit: cover;
